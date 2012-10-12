@@ -19,6 +19,7 @@ class Video extends Public_Controller {
 	public function view($code) {
 		$choice = $this->video_model->get_choice($code);
 		$data['title'] = $choice['title'];
+		$data['intro'] = $choice['intro'];
 		$data['videos'] = $choice['videos'];
 		$this->load->view('video/view', $data);
 	

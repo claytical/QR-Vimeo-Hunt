@@ -11,9 +11,11 @@ class Video_model extends CI_Model {
 		$result = $query->result();
 		$title = $result[0]->title;
 		$id = $result[0]->id;
-		$query = $this->db->query("SELECT title as verb, video_url FROM videos WHERE choice = " . $id);
+		$query = $this->db->query("SELECT title as verb, video_url FROM videos WHERE first = 0 AND choice = " . $id);
+		$queryFirst = $this->db->query("SELECT title as verb, video_url FROM videos WHERE first = 1 AND choice = " . $id);
 		return array(
 				'title' => $title,
+				'intro' => $queryFirst->row_array(),
 				'videos' => $query->result(), 
 		
 				);
