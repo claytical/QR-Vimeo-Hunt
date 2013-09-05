@@ -19,3 +19,7 @@ Administative Login Default: admin@admin.com
 Administrative Password Default: password
 
 Be sure to change the password!
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/claytical/qr-vimeo-hunt/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
