@@ -1,10 +1,10 @@
-Vimeo QR Code Hunt
+##Vimeo QR Code Hunt
 
 Coded by Clay Ewing (c.ewing@miami.edu)
 
 This software was created for a class at the University of Miami, but has been made public for anyone interested in doing the something similar.
 
-INSTALLATION:
+#INSTALLATION:
 
 1. Copy the all the files into whatever web directory you're going to run it from.
 2. Create a MySQL database and run vhunt.sql on it.
